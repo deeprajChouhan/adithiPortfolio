@@ -15,9 +15,7 @@ export function Footer() {
       <div className="mx-auto flex max-w-7xl flex-col gap-8 md:flex-row md:items-end md:justify-between">
         <div className="space-y-4">
           <Logo />
-          <p className="max-w-md text-sm leading-6 text-charcoal/65">
-            Crafted to present Adithi as an emerging chef — polished, ambitious, and grounded in real student and internship experience.
-          </p>
+
         </div>
         <div className="flex flex-col items-start gap-3 md:items-end">
           <div className="flex gap-3">

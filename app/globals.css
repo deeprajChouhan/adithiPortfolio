@@ -57,7 +57,7 @@ textarea {
 }
 
 .section-shell {
-  @apply mx-auto max-w-7xl px-6 lg:px-10;
+  @apply mx-auto max-w-[1440px] px-6 lg:px-10;
 }
 
 .section-space {

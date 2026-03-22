@@ -12,7 +12,7 @@ export function Navbar() {
 
   return (
     <header className="sticky top-0 z-50 border-b border-white/15 bg-cream/80 backdrop-blur-xl">
-      <nav className="mx-auto flex max-w-7xl items-center justify-between px-6 py-4 lg:px-10">
+      <nav className="mx-auto flex max-w-[1440px] items-center justify-between px-6 py-4 lg:px-10">
         <a href="#home" className="shrink-0">
           <Logo compact />
         </a>
@@ -53,7 +53,7 @@ export function Navbar() {
             exit={{ opacity: 0, height: 0 }}
             className="overflow-hidden border-t border-charcoal/10 bg-cream lg:hidden"
           >
-            <div className="mx-auto flex max-w-7xl flex-col gap-5 px-6 py-6">
+            <div className="mx-auto flex max-w-[1440px] flex-col gap-5 px-6 py-6">
               {navLinks.map((link) => (
                 <a
                   key={link.href}

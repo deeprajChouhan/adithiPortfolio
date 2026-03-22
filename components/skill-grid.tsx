@@ -1,8 +1,8 @@
-import { Knife, ShieldCheck, Sparkles, TimerReset } from 'lucide-react';
+import { ShieldCheck, Sparkles, TimerReset, Star } from 'lucide-react';
 
 import type { Skill } from '@/data/content';
 
-const iconMap = [Knife, Sparkles, ShieldCheck, TimerReset];
+const iconMap = [ShieldCheck, Sparkles, TimerReset, Star];
 
 export function SkillGrid({ skills }: { skills: Skill[] }) {
   return (

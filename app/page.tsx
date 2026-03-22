@@ -44,12 +44,36 @@ export default function HomePage() {
 
       <section className="section-shell relative overflow-hidden section-space pt-12 lg:pt-16">
         <div className="grid items-center gap-10 lg:grid-cols-[1.1fr_0.9fr] lg:gap-16">
+          <Reveal delay={0.15} className="relative">
+            <div className="texture-panel relative overflow-hidden rounded-[2.5rem] border border-white/30 bg-[#d9c4a7]/40 p-4 shadow-soft">
+              <div className="relative aspect-[4/5] overflow-hidden rounded-[2rem]">
+                <Image
+                  src="/branding/adithi.jpeg"
+                  alt="Editorial hero dish composition"
+                  fill
+                  priority
+                  sizes="(min-width: 1024px) 45vw, 100vw"
+                  className="object-cover"
+                />
+              </div>
+              <div className="absolute -left-5 bottom-8 max-w-xs rounded-[1.75rem] border border-white/30 bg-white/80 p-5 shadow-card backdrop-blur">
+                <p className="text-xs uppercase tracking-[0.3em] text-gold">Culinary focus</p>
+                <p className="mt-3 text-sm leading-6 text-charcoal/75">
+                  Elegant plating, flavour balance, kitchen discipline, and thoughtful growth through real internship experience.
+                </p>
+              </div>
+              <div className="absolute -right-4 top-8 flex h-24 w-24 animate-float items-center justify-center rounded-full border border-white/30 bg-wine/85 font-display text-2xl text-white shadow-card">
+                AVS
+              </div>
+            </div>
+          </Reveal>
+
           <Reveal className="space-y-8">
+            <Logo />
             <div className="inline-flex rounded-full border border-charcoal/10 bg-white/70 px-4 py-2 text-xs uppercase tracking-[0.3em] text-charcoal/70 shadow-card backdrop-blur">
               Third-year Culinary Arts Management student
             </div>
             <div className="space-y-6">
-              <Logo />
               <div>
                 <p className="text-sm uppercase tracking-[0.32em] text-wine/80">{chefProfile.title}</p>
                 <h1 className="mt-4 max-w-4xl font-display text-6xl leading-[0.95] text-charcoal sm:text-7xl xl:text-[7rem]">
@@ -82,30 +106,6 @@ export default function HomePage() {
                   </div>
                 </Reveal>
               ))}
-            </div>
-          </Reveal>
-
-          <Reveal delay={0.15} className="relative">
-            <div className="texture-panel relative overflow-hidden rounded-[2.5rem] border border-white/30 bg-[#d9c4a7]/40 p-4 shadow-soft">
-              <div className="relative aspect-[4/5] overflow-hidden rounded-[2rem]">
-                <Image
-                  src="/branding/hero-plate.svg"
-                  alt="Editorial hero dish composition"
-                  fill
-                  priority
-                  sizes="(min-width: 1024px) 45vw, 100vw"
-                  className="object-cover"
-                />
-              </div>
-              <div className="absolute -left-5 bottom-8 max-w-xs rounded-[1.75rem] border border-white/30 bg-white/80 p-5 shadow-card backdrop-blur">
-                <p className="text-xs uppercase tracking-[0.3em] text-gold">Culinary focus</p>
-                <p className="mt-3 text-sm leading-6 text-charcoal/75">
-                  Elegant plating, flavour balance, kitchen discipline, and thoughtful growth through real internship experience.
-                </p>
-              </div>
-              <div className="absolute -right-4 top-8 flex h-24 w-24 animate-float items-center justify-center rounded-full border border-white/30 bg-wine/85 font-display text-2xl text-white shadow-card">
-                AVS
-              </div>
             </div>
           </Reveal>
         </div>
@@ -236,11 +236,10 @@ export default function HomePage() {
                     key={category}
                     type="button"
                     onClick={() => setSelectedCategory(category)}
-                    className={`rounded-full px-4 py-2 text-xs uppercase tracking-[0.22em] transition ${
-                      selectedCategory === category
-                        ? 'bg-charcoal text-white'
-                        : 'border border-charcoal/10 bg-white text-charcoal/70 hover:border-charcoal/30'
-                    }`}
+                    className={`rounded-full px-4 py-2 text-xs uppercase tracking-[0.22em] transition ${selectedCategory === category
+                      ? 'bg-charcoal text-white'
+                      : 'border border-charcoal/10 bg-white text-charcoal/70 hover:border-charcoal/30'
+                      }`}
                   >
                     {category}
                   </button>
@@ -335,34 +334,35 @@ export default function HomePage() {
                 </h2>
               </div>
               <p className="max-w-xl text-lg leading-8 text-cream/80">{chefProfile.availability}</p>
-              <div className="space-y-4 rounded-[2rem] border border-white/10 bg-white/5 p-6">
-                <div className="flex items-center gap-3 text-cream/80">
-                  <MapPin size={18} className="text-gold" />
-                  {chefProfile.location}
-                </div>
-                <div className="flex items-center gap-3 text-cream/80">
-                  <Mail size={18} className="text-gold" />
-                  adithi@example.com
-                </div>
-              </div>
-              <div className="space-y-4">
-                <p className="text-sm uppercase tracking-[0.3em] text-cream/60">Social & portfolio links</p>
-                <div className="flex flex-wrap gap-3">
-                  {socialLinks.map((link) => (
-                    <a
-                      key={link.label}
-                      href={link.href}
-                      className="rounded-full border border-white/10 px-4 py-2 text-sm uppercase tracking-[0.22em] text-cream/80 transition hover:border-gold hover:text-gold"
-                    >
-                      {link.label}
-                    </a>
-                  ))}
-                </div>
-              </div>
+
             </div>
           </Reveal>
           <Reveal delay={0.1}>
-            <ContactForm />
+            <div className="space-y-4 rounded-[2rem] border border-white/10 bg-white/5 p-6">
+              <div className="flex items-center gap-3 text-cream/80">
+                <MapPin size={18} className="text-gold" />
+                {chefProfile.location}
+              </div>
+              <div className="flex items-center gap-3 text-cream/80">
+                <Mail size={18} className="text-gold" />
+                adithi@example.com
+              </div>
+            </div>
+            <br />
+            <div className="space-y-4">
+              <p className="text-sm uppercase tracking-[0.3em] text-cream/60">Social & portfolio links</p>
+              <div className="flex flex-wrap gap-3">
+                {socialLinks.map((link) => (
+                  <a
+                    key={link.label}
+                    href={link.href}
+                    className="rounded-full border border-white/10 px-4 py-2 text-sm uppercase tracking-[0.22em] text-cream/80 transition hover:border-gold hover:text-gold"
+                  >
+                    {link.label}
+                  </a>
+                ))}
+              </div>
+            </div>
           </Reveal>
         </div>
       </section>
