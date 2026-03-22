@@ -1,0 +1,23 @@
+<svg width="1200" height="1500" viewBox="0 0 1200 1500" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="1500" fill="#F3EADF"/>
+  <rect x="90" y="90" width="1020" height="1320" rx="56" fill="url(#paint0_linear)" opacity="0.95"/>
+  <circle cx="920" cy="300" r="210" fill="#B99A62" opacity="0.22"/>
+  <circle cx="320" cy="1160" r="240" fill="#8CB0A3" opacity="0.18"/>
+  <ellipse cx="600" cy="760" rx="360" ry="360" fill="#F8F2E8"/>
+  <ellipse cx="600" cy="760" rx="300" ry="300" fill="#fffaf3"/>
+  <ellipse cx="600" cy="760" rx="220" ry="220" fill="#F8F1E8" opacity="0.95"/>
+  <path d="M430 810C500 690 695 665 785 750C875 835 818 1015 640 1045C462 1075 355 940 430 810Z" fill="#FFF7F0"/>
+  <path d="M500 650C585 605 705 625 760 700C670 700 575 735 515 790C476 748 468 687 500 650Z" fill="#A3B87A" opacity="0.82"/>
+  <circle cx="490" cy="930" r="36" fill="#E7C36D" opacity="0.9"/>
+  <circle cx="732" cy="872" r="28" fill="#F1D3A4" opacity="0.85"/>
+  <circle cx="634" cy="720" r="18" fill="#fff" opacity="0.7"/>
+  <path d="M280 175H920" stroke="#F5EBDD" stroke-opacity="0.55" stroke-width="2"/>
+  <text x="150" y="1280" fill="#FFF8F2" font-family="Georgia, serif" font-size="74">Coconut Panna Cotta</text>
+  <text x="150" y="1350" fill="#F8E6D1" font-family="Arial, sans-serif" font-size="28" letter-spacing="6">CHEF PORTFOLIO SHOWCASE</text>
+  <defs>
+    <linearGradient id="paint0_linear" x1="180" y1="120" x2="980" y2="1380" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#8E7558"/>
+      <stop offset="1" stop-color="#D7C0A2"/>
+    </linearGradient>
+  </defs>
+</svg>
