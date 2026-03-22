@@ -5,7 +5,7 @@ import { AnimatePresence, motion } from 'framer-motion';
 import { ArrowRight, Check, GraduationCap, Mail, MapPin, Quote, Star } from 'lucide-react';
 import { useMemo, useState } from 'react';
 
-import { ContactForm } from '@/components/contact-form';
+
 import { DishCard } from '@/components/dish-card';
 import { ExperienceCard } from '@/components/experience-card';
 import { Footer } from '@/components/footer';
