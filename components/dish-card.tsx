@@ -22,13 +22,13 @@ export function DishCard({ dish, onSelect }: { dish: Dish; onSelect: (dish: Dish
             sizes="(min-width: 1280px) 25vw, (min-width: 768px) 33vw, 100vw"
             className="object-cover transition duration-700 group-hover:scale-105"
           />
-          <div className="absolute inset-0 bg-gradient-to-t from-charcoal/80 via-charcoal/20 to-transparent" />
-          <div className="absolute left-5 top-5 rounded-full border border-white/25 bg-white/15 px-3 py-1 text-xs uppercase tracking-[0.25em] text-white backdrop-blur-sm">
+          <div className="absolute inset-0 bg-gradient-to-t from-charcoal/95 via-charcoal/70 to-transparent" />
+          <div className="absolute left-5 top-5 rounded-full border border-white/25 bg-white/15 px-3 py-1 text-xs uppercase tracking-[0.25em] text-white backdrop-blur-sm shadow-sm">
             {dish.category}
           </div>
           <div className="absolute bottom-0 p-5 text-white">
-            <h3 className="font-display text-3xl leading-none">{dish.name}</h3>
-            <p className="mt-3 text-sm leading-6 text-white/80">{dish.description}</p>
+            <h3 className="font-display text-3xl leading-none shadow-sm">{dish.name}</h3>
+            <p className="mt-3 line-clamp-3 text-sm leading-6 text-white/90 drop-shadow-md">{dish.description}</p>
           </div>
         </div>
         <div className="space-y-5 p-5">

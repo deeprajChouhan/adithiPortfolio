@@ -92,13 +92,13 @@ export const navLinks: NavLink[] = [
   { label: 'Dishes', href: '#dishes' },
   { label: 'Skills', href: '#skills' },
   { label: 'Achievements', href: '#achievements' },
-  { label: 'Testimonials', href: '#testimonials' },
+  { label: 'References', href: '#testimonials' },
   { label: 'Contact', href: '#contact' },
 ];
 
 export const heroStats: Stat[] = [
   { label: 'Year of Study', value: '3rd Year' },
-  { label: 'Internships', value: '2 Kitchen Roles' },
+  { label: 'Experience', value: '1 Internship, 1 Part-Time' },
   { label: 'Signature Dishes', value: '8 Curated Plates' },
 ];
 
@@ -130,11 +130,11 @@ export const education: Education = {
 
 export const internships: Internship[] = [
   {
-    role: 'Commis Chef Intern',
+    role: 'Commis Chef',
     company: 'Birmingham City Football Club',
     location: 'Birmingham, United Kingdom',
     duration: 'November 2023 – May 2024',
-    label: 'Internship',
+    label: 'Part-Time',
     summary:
       'Supported match-day and hospitality kitchen service while strengthening speed, organisation, and consistency under pressure.',
     responsibilities: [
@@ -173,92 +173,92 @@ export const dishCategories = [
 
 export const dishes: Dish[] = [
   {
-    id: 'charred-beetroot',
-    name: 'Charred Beetroot Mosaic',
+    id: 'cream-broccolini',
+    name: 'Cream broccolini with sourdough croutons and Roasted garlic',
     category: 'Appetizers',
     description:
-      'A delicate starter built around earthy sweetness, whipped goat cheese, candied walnuts, and citrus brightness.',
-    ingredients: ['Beetroot', 'Goat cheese', 'Orange', 'Walnuts', 'Micro herbs'],
-    techniques: ['Roasting', 'Charring', 'Whipping', 'Precise plating'],
-    image: '/dishes/charred-beetroot.svg',
-    platingNote: 'Layered in a gallery-style arc for a clean editorial presentation.',
+      'This vibrant appetizer features a silky Cream of Broccolini base, blended to a rich, velvety consistency that captures the earthy sweetness of the greens. It is elevated by the deep, mellow notes of roasted garlic folded throughout and topped with hand-torn sourdough croutons for a rustic, buttery crunch. Finished with a delicate drizzle of cream and aromatic herbs, this dish is a sophisticated study in contrasting textures and balanced, garden-fresh Flavors',
+    ingredients: ['Broccolini', 'Sourdough', 'Garlic', 'Cream', 'Herbs'],
+    techniques: ['Blending', 'Roasting', 'Hand-tearing', 'Garnishing'],
+    image: '/dishes/dish1.jpg',
+    platingNote: 'Elegant plating in a white bowl, balancing textures visually.',
   },
   {
-    id: 'saffron-risotto',
-    name: 'Saffron Forest Risotto',
+    id: 'beef-goulash',
+    name: 'Beef Goulash and pasta',
     category: 'Mains',
     description:
-      'Creamy risotto finished with wild mushrooms, herb oil, and parmesan crisp for texture contrast.',
-    ingredients: ['Arborio rice', 'Saffron', 'Wild mushrooms', 'Parmesan', 'Herb oil'],
-    techniques: ['Stock absorption', 'Sautéing', 'Emulsifying', 'Crisp baking'],
-    image: '/dishes/saffron-risotto.svg',
-    platingNote: 'Centered with vertical garnish and negative space to highlight richness.',
+      'This main course reimagines a timeless classic, featuring a tender Beef Goulash slow-cooked to perfection in a rich, paprika-infused sauce. Served over a bed of ribboned tagliatelle, the dish expertly marries the robust, Savory depth of the stew with the delicate texture of the pasta. Accented by vibrant bell peppers and finished with elegant dots of sour cream and a fresh parsley garnish, it is a comforting yet refined plate that highlights a masterful balance of tradition and modern presentation.',
+    ingredients: ['Beef', 'Paprika', 'Tagliatelle', 'Bell peppers', 'Sour cream', 'Parsley'],
+    techniques: ['Slow cooking', 'Stewing', 'Pasta making', 'Plating'],
+    image: '/dishes/dish2.jpg',
+    platingNote: 'Ribboned pasta bed with hearty goulash, vibrant accents.',
   },
   {
-    id: 'citrus-seabass',
-    name: 'Citrus Sea Bass with Fennel Ash',
+    id: 'vanilla-rhubarb-cheesecake',
+    name: 'Vanilla and rhubarb cheesecake with white chocolate shards, sugar work, rhubarb sorbet, pickled rhubarb, rhubarb and lemon gel and French vanilla meringue.',
     category: 'Plated Dishes',
     description:
-      'A composed seafood plate balancing bright citrus, silky purée, and subtle smoky notes.',
-    ingredients: ['Sea bass', 'Fennel', 'Lemon', 'Potato purée', 'Capers'],
-    techniques: ['Pan roasting', 'Puréeing', 'Segmenting', 'Sauce finishing'],
-    image: '/dishes/citrus-seabass.svg',
-    platingNote: 'Designed with soft curves and restrained sauce work for luxury dining appeal.',
+      'The plating of this dessert adopts a modern deconstructed aesthetic, transforming the traditional cheesecake into a dynamic, multi-dimensional landscape. By arranging the creamy vanilla cylinders and sharp white chocolate shards along a central axis, the dish gains a sense of architectural height and movement. The vibrant rhubarb and lemon gel is precisely dotted to frame the plate, while the airy French vanilla meringues and hand-crafted spun sugar nest introduce a delicate, gossamer-like transparency. This intentional layering of textures from the smooth, quenelle sorbet to the crisp, pickled rhubarb batons create a sophisticated visual rhythm that celebrates both precision and organic beauty.',
+    ingredients: ['Vanilla', 'Rhubarb', 'White chocolate', 'Sugar', 'Lemon'],
+    techniques: ['Deconstruction', 'Gel making', 'Sugar work', 'Quenelle', 'Pickling'],
+    image: '/dishes/dish3.jpg',
+    platingNote: 'Modern deconstructed aesthetic, central axis arrangement, dynamic landscape.',
   },
   {
-    id: 'spiced-lamb',
-    name: 'Spiced Lamb with Olive Jus',
+    id: 'pan-seared-sea-bass',
+    name: 'Pan seared sea bass with Mediterranean vegetables and potatoes bravas',
     category: 'Regional Cuisine',
     description:
-      'A regional-inspired main that pairs slow-cooked lamb with charred aubergine and a glossy olive jus.',
-    ingredients: ['Lamb', 'Olives', 'Aubergine', 'Garlic', 'Rosemary'],
-    techniques: ['Slow cooking', 'Reduction', 'Charring', 'Resting meats'],
-    image: '/dishes/spiced-lamb.svg',
-    platingNote: 'Structured to feel rustic yet elevated, with sauce used as a framing element.',
+      'Inspired by the Flavors of Greek coastal cuisine, this dish features a crisp, pan-seared Sea Bass fillet, expertly cooked to highlight its delicate, flaky texture. It is set atop a rustic medley of Mediterranean vegetables and smoky patatas bravas, blending Hellenic tradition with a subtle Iberian influence. A vibrant herb oil drizzle adds a punch of freshness, while the inclusion of briny olives and charred vegetables creates a robust, Savory profile that perfectly complements the lightness of the fish.',
+    ingredients: ['Sea bass', 'Mediterranean vegetables', 'Potatoes', 'Herb oil', 'Olives'],
+    techniques: ['Pan searing', 'Roasting', 'Drizzling', 'Charring'],
+    image: '/dishes/dish4.jpg',
+    platingNote: 'Rustic medley base, crisp fish top, vibrant oil drizzle.',
   },
   {
-    id: 'coconut-panna',
-    name: 'Coconut Panna Cotta',
+    id: 'lemon-tart',
+    name: 'Lemon tart with yogurt sorbet, lemon curd, raspberry gel, shortbread crumble, honeycomb and Brandy snap biscuit.',
     category: 'Desserts',
     description:
-      'A smooth coconut-set dessert with poached pineapple, lime syrup, and toasted sesame.',
-    ingredients: ['Coconut cream', 'Gelatin', 'Pineapple', 'Lime', 'Sesame'],
-    techniques: ['Setting', 'Poaching', 'Syrup reduction', 'Texture layering'],
-    image: '/dishes/coconut-panna.svg',
-    platingNote: 'Soft monochrome tones with a vivid fruit accent for a clean finish.',
+      'This sophisticated slate-plated dessert is a vibrant study in citrus and texture, cantered around a classic Lemon Tart topped with a toasted meringue. The dish features a cooling yogurt sorbet nestled within a delicate, golden Brandy snap biscuit, providing a sharp, creamy contrast to the zesty pools of lemon curd. Accented with a tart raspberry gel and the crunch of shortbread crumble and honeycomb, the presentation is finished with airy meringues and edible florals. It is a masterfully balanced plate that pairs bold acidity with deep, caramelized sweetness and a variety of playful textures.',
+    ingredients: ['Lemon', 'Yogurt', 'Raspberry', 'Shortbread', 'Honeycomb', 'Brandy snap'],
+    techniques: ['Baking', 'Gel making', 'Sorbet churning', 'Toasting', 'Plating'],
+    image: '/dishes/dish5.jpg',
+    platingNote: 'Slate-plated, vibrant study in citrus, layered textures.',
   },
   {
-    id: 'smoked-tomato',
-    name: 'Smoked Tomato Consommé',
+    id: 'canapes',
+    name: 'Gochujang chicken boa buns, miso beef wellington, and chestnut mushroom macarons.',
     category: 'Experimental',
     description:
-      'A clear, concentrated tomato broth paired with basil oil pearls and sourdough shards.',
-    ingredients: ['Tomatoes', 'Basil', 'Sourdough', 'Shallots', 'Smoked salt'],
-    techniques: ['Clarifying', 'Infusion', 'Dehydration', 'Oil pearl finishing'],
-    image: '/dishes/smoked-tomato.svg',
-    platingNote: 'Presented as a minimal tasting course with a transparent, jewel-like look.',
+      'This trio of experimental small bites is a sophisticated exploration of flavour boundaries, challenging traditional boundaries between sweet and Savory. The collection opens with a Gochujang Chicken Bao, where the fermented heat of Korean chili is tempered by a crisp, cooling cucumber relish. The centrepiece features a Miso Beef Wellington, a bold reimagining of the classic pastry that replaces traditional duxelles with the deep, fermented umami of Japanese miso. The experience culminates in a technical Chestnut Mushroom Macaron, an avant-garde play on French pâtisserie that highlights the earthy, forest-floor notes of the fungi in a delicate, airy shell. Each element is a calculated study in fusion gastronomy, designed to surprise the palate through unexpected pairings and refined technical execution.',
+    ingredients: ['Gochujang', 'Chicken', 'Miso', 'Beef', 'Chestnut mushroom'],
+    techniques: ['Baking', 'Fermentation', 'Fusion gastronomy', 'Macaron-making'],
+    image: '/dishes/dish6.jpg',
+    platingNote: 'Trio of experimental small bites, fusion gastronomy.',
   },
   {
-    id: 'burnt-onion-tart',
-    name: 'Burnt Onion Tartlet',
+    id: 'mushroom-gnocchi',
+    name: 'Mushroom tarragon gnocchi with wild mushrooms and artichoke split sauce.',
     category: 'Appetizers',
     description:
-      'A crisp tartlet filled with caramelised onion purée, whipped feta, and herb dust.',
-    ingredients: ['Onion', 'Shortcrust pastry', 'Feta', 'Thyme', 'Black pepper'],
-    techniques: ['Blind baking', 'Caramelising', 'Whipping', 'Fine garnishing'],
-    image: '/dishes/burnt-onion-tart.svg',
-    platingNote: 'Petite format designed for canapé service and elegant bite-sized presentation.',
+      'This sophisticated appetizer features hand-rolled Mushroom and Tarragon Gnocchi, pan-seared to achieve a delicate golden crust while remaining pillowy and light. The dish is anchored by a selection of wild mushrooms, including expertly scored king oysters and earthy forest varieties, which bring a deep, Savory umami to the plate. It is finished with a unique artichoke split sauce, providing a complex, nutty acidity that cuts through the richness, while vibrant green peas and a precise dotting of purée add freshness and visual rhythm to the slate presentation.',
+    ingredients: ['Gnocchi', 'Tarragon', 'Wild mushrooms', 'King oysters', 'Artichoke', 'Green peas'],
+    techniques: ['Hand-rolling', 'Pan-searing', 'Scoring', 'Sauce splitting'],
+    image: '/dishes/dish7.jpg',
+    platingNote: 'Slate presentation, precise dotting of purée, dynamic visual rhythm.',
   },
   {
-    id: 'dark-chocolate',
-    name: 'Dark Chocolate Terrarium',
-    category: 'Desserts',
+    id: 'vegan-carrots',
+    name: 'Heritage Carrots with Polenta, carrot puree, toasted pearl barley, basil oil and vegan toasted bread.',
+    category: 'Mains',
     description:
-      'A plated dessert featuring chocolate soil, coffee crémeux, and berry gel accents.',
-    ingredients: ['Dark chocolate', 'Coffee', 'Berries', 'Cream', 'Cocoa crumble'],
-    techniques: ['Crémeux making', 'Crumb baking', 'Gel setting', 'Plated dessert composition'],
-    image: '/dishes/dark-chocolate.svg',
-    platingNote: 'Composed with sculptural height and texture for a dramatic dessert finish.',
+      'This elevated vegan entrée is a vibrant celebration of the root vegetable, featuring tender Heritage Carrots served alongside a creamy, seasoned polenta. The dish is built on a foundation of silky carrot purée, accented by the nutty chew of toasted pearl barley and the aromatic brightness of a basil oil infusion. Crisp shards of vegan toasted bread provide a necessary textural contrast, while the slate-plated presentation uses bold sweeps of colour and precise dotting to create a modern, garden-inspired aesthetic. It is a thoughtful, plant-based composition that balances earthy sweetness with refined culinary technique.',
+    ingredients: ['Heritage Carrots', 'Polenta', 'Pearl barley', 'Basil oil', 'Vegan bread'],
+    techniques: ['Puréeing', 'Toasting', 'Infusion', 'Plating'],
+    image: '/dishes/dish8.jpg',
+    platingNote: 'Slate-plated, bold sweeps of colour, garden-inspired aesthetic.',
   },
 ];
 
@@ -275,7 +275,7 @@ export const skills: Skill[] = [
   },
   {
     name: 'Baking Basics',
-    level: 'Developing',
+    level: 'Good',
     description: 'Comfortable with pastry basics, tart work, and dessert preparation.',
   },
   {
@@ -285,12 +285,12 @@ export const skills: Skill[] = [
   },
   {
     name: 'Food Safety & Hygiene',
-    level: 'Reliable',
+    level: 'Good',
     description: 'Committed to clean stations, safe storage, and disciplined kitchen routines.',
   },
   {
     name: 'Mise en Place',
-    level: 'Reliable',
+    level: 'Good',
     description: 'Organised prep habits that support calmer, more efficient service execution.',
   },
   {
@@ -352,7 +352,7 @@ export const testimonials: Testimonial[] = [
 ];
 
 export const socialLinks: SocialLink[] = [
-  { label: 'Instagram', href: 'https://instagram.com/' },
-  { label: 'LinkedIn', href: 'https://linkedin.com/' },
-  { label: 'Email', href: 'mailto:adithi@example.com' },
+  // { label: 'Instagram', href: 'https://instagram.com/' },
+  { label: 'LinkedIn', href: 'https://www.linkedin.com/in/adithi-varma-sagi-19b5932a3/' },
+  { label: 'Email', href: 'mailto:sag22167998@student.ucb.ac.uk' },
 ];

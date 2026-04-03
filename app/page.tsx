@@ -302,7 +302,7 @@ export default function HomePage() {
       <section id="testimonials" className="section-shell section-space">
         <Reveal>
           <SectionHeading
-            eyebrow="Testimonials"
+            eyebrow="References"
             title="Editable mentor feedback for a more human portfolio."
             description="These placeholder testimonials are intentionally realistic and can be replaced later with quotes from chefs, mentors, or internship supervisors."
           />
