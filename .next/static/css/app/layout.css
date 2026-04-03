@@ -1129,19 +1129,10 @@ video {
 .bg-gradient-to-t {
   background-image: linear-gradient(to top, var(--tw-gradient-stops));
 }
-.from-charcoal\/80 {
-  --tw-gradient-from: rgb(32 26 26 / 0.8) var(--tw-gradient-from-position);
-  --tw-gradient-to: rgb(32 26 26 / 0) var(--tw-gradient-to-position);
-  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
-}
 .from-charcoal\/95 {
   --tw-gradient-from: rgb(32 26 26 / 0.95) var(--tw-gradient-from-position);
   --tw-gradient-to: rgb(32 26 26 / 0) var(--tw-gradient-to-position);
   --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
-}
-.via-charcoal\/20 {
-  --tw-gradient-to: rgb(32 26 26 / 0)  var(--tw-gradient-to-position);
-  --tw-gradient-stops: var(--tw-gradient-from), rgb(32 26 26 / 0.2) var(--tw-gradient-via-position), var(--tw-gradient-to);
 }
 .via-charcoal\/70 {
   --tw-gradient-to: rgb(32 26 26 / 0)  var(--tw-gradient-to-position);
@@ -1384,8 +1375,8 @@ video {
 .text-white\/70 {
   color: rgb(255 255 255 / 0.7);
 }
-.text-white\/80 {
-  color: rgb(255 255 255 / 0.8);
+.text-white\/90 {
+  color: rgb(255 255 255 / 0.9);
 }
 .text-wine {
   --tw-text-opacity: 1;
@@ -1393,9 +1384,6 @@ video {
 }
 .text-wine\/80 {
   color: rgb(95 35 56 / 0.8);
-}
-.text-white\/90 {
-  color: rgb(255 255 255 / 0.9);
 }
 .antialiased {
   -webkit-font-smoothing: antialiased;
@@ -1406,14 +1394,14 @@ video {
   --tw-shadow-colored: 0 16px 40px var(--tw-shadow-color);
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
 }
-.shadow-soft {
-  --tw-shadow: 0 20px 60px rgba(32, 26, 26, 0.12);
-  --tw-shadow-colored: 0 20px 60px var(--tw-shadow-color);
-  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
-}
 .shadow-sm {
   --tw-shadow: 0 1px 2px 0 rgb(0 0 0 / 0.05);
   --tw-shadow-colored: 0 1px 2px 0 var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+.shadow-soft {
+  --tw-shadow: 0 20px 60px rgba(32, 26, 26, 0.12);
+  --tw-shadow-colored: 0 20px 60px var(--tw-shadow-color);
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
 }
 .outline-none {

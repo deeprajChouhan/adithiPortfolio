@@ -300,14 +300,14 @@ export default function HomePage() {
       </section>
 
       <section id="testimonials" className="section-shell section-space">
-        <Reveal>
+        {/* <Reveal>
           <SectionHeading
             eyebrow="References"
             title="Editable mentor feedback for a more human portfolio."
             description="These placeholder testimonials are intentionally realistic and can be replaced later with quotes from chefs, mentors, or internship supervisors."
           />
-        </Reveal>
-        <div className="grid gap-6 lg:grid-cols-3">
+        </Reveal> */}
+        {/* <div className="grid gap-6 lg:grid-cols-3">
           {testimonials.map((testimonial, index) => (
             <Reveal key={testimonial.name} delay={index * 0.08}>
               <article className="rounded-[2rem] border border-charcoal/10 bg-[#faf7f1] p-6 shadow-card sm:p-8">
@@ -320,7 +320,7 @@ export default function HomePage() {
               </article>
             </Reveal>
           ))}
-        </div>
+        </div> */}
       </section>
 
       <section id="contact" className="section-space bg-charcoal text-white">
@@ -345,7 +345,7 @@ export default function HomePage() {
               </div>
               <div className="flex items-center gap-3 text-cream/80">
                 <Mail size={18} className="text-gold" />
-                adithi@example.com
+                sag22167998@student.ucb.ac.uk
               </div>
             </div>
             <br />
